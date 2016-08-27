@@ -1,0 +1,27 @@
+{
+  "name": "fis-cross-app",
+  "version": "1.0.0",
+  "description": "support cross yog2 app referance auto compile ",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nengc/fis-cross-app.git"
+  },
+  "keywords": [
+    "yog2/fis",
+    "cross",
+    "app",
+    "referance",
+    "auto",
+    "refresh"
+  ],
+  "author": "caon",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nengc/fis-cross-app/issues"
+  },
+  "homepage": "https://github.com/nengc/fis-cross-app#readme"
+}
