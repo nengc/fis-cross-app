@@ -1,9 +1,10 @@
 # fis-cross-app
+
+
 ## Features
 - Can reload the fis app when the referred app changed
-## Install
 
-```
+## Install
 npm install fis-cross-app -g
 ```
 ## How to Use
