@@ -11,7 +11,7 @@ npm install fis-cross-app -g
 
 ## How to Use
 
-### Set project name as a param
+### Set the names used by the other apps as a param , and spilt by ','
 ```js
 fis.config.set('usedByNS', 'home');
 ```
