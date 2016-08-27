@@ -11,12 +11,13 @@ npm install fis-cross-app -g
 
 ## How to Use
 
-### Import the module
-```js
-var fisCrossApp = require('fis-cross-app');
-```
 ### Set project name as a param
 ```js
 fis.config.set('usedByNS', 'home');
+```
+### Import the module
+```js
+require('fis-cross-app');
+
 ```
 ### That's all, enjoy it
