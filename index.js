@@ -15,4 +15,4 @@ module.exports = function() {
             fs.writeFileSync(path, fs.readFileSync(path));
         }
     });
-};
+}();
