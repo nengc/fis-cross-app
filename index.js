@@ -1,7 +1,8 @@
 /**
  * Created by Administrator on 2016/8/27.
  */
-var fs= require('fs');
+var fs = require('fs');
+var fisCrossApp = module.exports = {};
 module.exports = function() {
     fis.on('release:end', function() {
         var usedByArr = [];
@@ -14,4 +15,4 @@ module.exports = function() {
             fs.writeFileSync(path, fs.readFileSync(path));
         }
     });
-}();
+};

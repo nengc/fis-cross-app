@@ -6,7 +6,7 @@
 
 ## Install
 ```
-npm install fis-cross-app -g
+npm install fis-cross-app
 ```
 
 ## How to Use
@@ -17,7 +17,7 @@ fis.config.set('usedByNS', 'home');
 ```
 ### Import the module
 ```js
-require('fis-cross-app');
+require('fis-cross-app')();
 
 ```
 ### That's all, enjoy it
