@@ -17,7 +17,7 @@ fis.config.set('usedByNS', 'home');
 ```
 ### Import the module
 ```js
-fis.require('fis-cross-app');
+fis.require('cross-app');
 
 ```
 ### That's all, enjoy it
