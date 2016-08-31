@@ -3,8 +3,21 @@
  */
 var fs = require('fs');
 var fisCrossApp = module.exports = {};
-module.exports = function () {
-    fis.on('deploy:end', function () {
+module.exports = function() {
+    //fix cross app bug
+    fis.cache.clean = function(name) {
+        name = name || '';
+        var path = fis.project.getCachePath(name);
+        try {
+            if (fis.util.exists(path)) {
+                fis.util.del(path);
+            }
+        } catch (e) {
+
+        }
+    };
+
+    fis.on('deploy:end', function() {
         var usedByArr = [];
         if (fis.config.get('usedByNS')) {
             usedByArr = fis.config.get('usedByNS').split(',');
