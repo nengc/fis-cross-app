@@ -1,6 +1,6 @@
 {
   "name": "fis-cross-app",
-  "version": "1.0.7",
+  "version": "1.0.8",
   "description": "support cross yog2 app referance auto compile ",
   "main": "index.js",
   "scripts": {
